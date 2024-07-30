@@ -50,7 +50,7 @@ const NavBar: React.FC = () => {
           <Link to="/skills" className="block text-white px-4 py-2 hover:bg-gray-700" onClick={closeMenu}>Skills</Link>
           <Link to="/projects" className="block text-white px-4 py-2 hover:bg-gray-700" onClick={closeMenu}>Projects</Link>
           <Link to="/contact" className="block text-white px-4 py-2 hover:bg-gray-700" onClick={closeMenu}>Contact</Link>
-          {/* <Link to="#" className="block text-white px-4 py-2 hover:bg-gray-700" onClick={closeMenu}>Contact!</Link> */}
+          <Link to="#" className="block text-white px-4 py-2 hover:bg-gray-700" onClick={closeMenu}>Contact!</Link>
         </div>
       )}
     </div>

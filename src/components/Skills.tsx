@@ -10,7 +10,7 @@ import {
 const Skills: React.FC = () => {
   return (
     <div className="min-h-screen relative px-4 py-16 sm:px-6 lg:px-8">
-      <div className="text-center max-w-[568px] mx-auto font-alata mb-16">
+      <div className="text-center max-w-[568px] mx-auto font-alata mt-12">
         <h2 className="text-2xl sm:text-[28px] font-bold mb-6">
           <span className="text-white">My Skills</span>
           <span className="text-green-500"> & Experience</span>
@@ -22,7 +22,7 @@ const Skills: React.FC = () => {
           learning and building web projects.
         </p>
       </div>
-      <div className="flex flex-wrap justify-center gap-8">
+      <div className="flex flex-wrap justify-center gap-8 mt-28">
         {[
           { icon: faJs, title: "JavaScript", description: "Basic understanding of JavaScript for adding interactivity to web pages." },
           { icon: faHtml5, title: "HTML & CSS", description: "Proficient in creating structured web pages using HTML and styling them with CSS." },
@@ -39,11 +39,11 @@ const Skills: React.FC = () => {
           </div>
         ))}
       </div>
-      <div className="flex justify-center mt-16">
+      {/* <div className="flex justify-center mt-16">
         <button className="h-10 w-44 rounded-xl border-2 border-Color3 text-Color3 font-acme text-[18px] flex justify-center items-center hover:underline active:bg-slate-700">
           Hire Me
         </button>
-      </div>
+      </div> */}
     </div>
   );
 };

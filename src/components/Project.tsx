@@ -51,7 +51,7 @@ const Projects: React.FC = () => {
           className="relative bg-gray-800 rounded-lg overflow-hidden cursor-pointer transition-all duration-300 ease-in-out hover:scale-105">
             <img
               src={image}
-              alt={projectNames[index]} // Updated alt text
+              alt={projectNames[index]} 
               className="w-full h-48 object-cover"
             />
             <div className="p-4 text-center">
@@ -59,7 +59,7 @@ const Projects: React.FC = () => {
                 className="text-xl font-semibold text-white"
                 onClick={() => handleProjectClick(index + 1)}
               >
-                {projectNames[index]} {/* Display project name */}
+                {projectNames[index]} 
               </button>
               <div className="mt-2">
                 <a
